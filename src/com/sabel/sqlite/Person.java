@@ -14,7 +14,7 @@ public class Person {
         this.id = ++letzteID;
     }
 
-    public Person(String nachname, int jahrgang) {
+    public Person(int id, String nachname, int jahrgang) {
         this();
         this.nachname = nachname;
         this.jahrgang = jahrgang;
